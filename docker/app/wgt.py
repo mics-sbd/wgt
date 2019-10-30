@@ -20,10 +20,6 @@ ID_STATUS_SECRET_NOT_FOUND = 1001
 
 
 #  hard-code this stuff for now; eventually will pick it up from kubernetes
-sbdVaultCreds = ServicePrincipalCredentials(
-    client_id = '46ee1ba2-dec2-493b-b2c4-4a81ffcd37dc',
-    secret = 'xgo?iK.t19-6dGw:0fwbXLhbDP0W_6FL',
-    tenant = 'e86183dc-d7cc-4132-8b39-a8de37272433' )
 
 sbdVaultURL = 'https://mics-kv.vault.azure.net/'
 
